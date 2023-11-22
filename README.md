@@ -26,3 +26,12 @@ Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengo
 - creo un array di squadre ciascuna con nome, punti e falli subiti(inizializzati a 0)
 - uso un ciclo forEach sull'array e per ogni squadra considero le proprietà points e foulsDrawn e assegno un valore random tramite la funzione randomNum
 - per creare un nuovo array i cui elementi contengono solo nomi e falli subiti utilizzo il metodo map sull'array di squadre e passo come funzione a map la destrutturazione che separa foulsDrawn dalle altre proprietà tramite ...rest
+
+## Bonus Snack 3
+
+Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
+La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
+Usiamo i nuovi metodi degli array foreach o filter.
+
+- creo una funzione con argomenti un array e due valori a e b(a deve essere minore di b)
+- la funzione ritorna arr filtrato(tramite metodo filter) solo con gli elementi che hanno index compreso tra a e b inclusi
