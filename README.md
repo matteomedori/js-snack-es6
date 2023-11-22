@@ -15,3 +15,14 @@ Stampare a schermo la bici con peso minore utilizzando destructuring e template 
     - indexLighterBike diventa l'indice attuale di iterazione
     - il nome della bici più leggera diventa quello della bici in questione
 - dopo il ciclo scrivo sull'html il risultato con un template literal
+
+## Snack 2
+
+Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti.
+Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+- creo un array di squadre ciascuna con nome, punti e falli subiti(inizializzati a 0)
+- uso un ciclo forEach sull'array e per ogni squadra considero le proprietà points e foulsDrawn e assegno un valore random tramite la funzione randomNum
+- per creare un nuovo array i cui elementi contengono solo nomi e falli subiti utilizzo il metodo map sull'array di squadre e passo come funzione a map la destrutturazione che separa foulsDrawn dalle altre proprietà tramite ...rest
